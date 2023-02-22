@@ -2,6 +2,7 @@ import Header from '@/components/Header.jsx';
 import './globals.css';
 import Providers from './Providers.jsx';
 import Navbar from '@/components/Navbar';
+import SearchBox from '@/components/SearchBox';
 
 export default function RootLayout({ children }) {
   return (
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           <Navbar />
 
           {/* SearchBox */}
+          <SearchBox />
 
           {children}
         </Providers>        
